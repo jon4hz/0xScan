@@ -3,7 +3,7 @@
 [![testing](https://github.com/0xTrackerApp/0xScan/actions/workflows/testing.yml/badge.svg)](https://github.com/0xTrackerApp/0xScan/actions/workflows/testing.yml)
 
 ## 💡 About
-This module offers an API wrapper for he blockexplorers from the etherscan.io team.
+This module offers an API wrapper for the blockexplorers from the etherscan.io team.
 
 The APIs from the following explorers are supported at the moment:
 - https://etherscan.io
