@@ -10,10 +10,11 @@ import (
 
 // predefined endpoints
 const (
-	etherscanUrl   = "https://api.etherscan.io/api"
-	bscscanUrl     = "https://api.bscscan.com/api"
-	polygonscanUrl = "https://api.polygonscan.com/api"
-	ftmscanUrl     = "https://api.ftmscan.com/api"
+	etherscanUrl      = "https://api.etherscan.io/api"
+	bscscanUrl        = "https://api.bscscan.com/api"
+	polygonscanUrl    = "https://api.polygonscan.com/api"
+	ftmscanUrl        = "https://api.ftmscan.com/api"
+	optimetherscanUrl = "https://api-optimistic.etherscan.io/api"
 )
 
 type networkOpts struct {
@@ -32,6 +33,9 @@ var (
 	}
 	FtmOpts = &networkOpts{
 		endpoint: ftmscanUrl,
+	}
+	OptimEthOpts = &networkOpts{
+		endpoint: optimetherscanUrl,
 	}
 )
 

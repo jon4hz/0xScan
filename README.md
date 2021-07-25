@@ -7,6 +7,7 @@ This module offers an API wrapper for the blockexplorers from the etherscan.io t
 
 The APIs from the following explorers are supported at the moment:
 - https://etherscan.io
+- https://optimistic.etherscan.io/
 - https://bscscan.com
 - https://polygonscan.com
 - https://ftmscan.com
